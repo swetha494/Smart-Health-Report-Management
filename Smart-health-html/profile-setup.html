@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Complete Profile</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="profile-setup.css">
+
+</head>
+
+<body>
+
+<div class="profile-container">
+
+    <h2 class="page-title">Complete Profile</h2>
+
+    <div class="profile-card">
+
+        <h1>Complete your patient profile</h1>
+
+        <p class="subtitle">
+            Add your medical and emergency details before entering the patient workspace.
+        </p>
+
+        <form>
+
+            <!-- Row 1 -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>Gender</label>
+
+                    <div class="input-box">
+                        <i class="fa-regular fa-user"></i>
+
+                        <select>
+                            <option>Select gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Date of birth</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-calendar"></i>
+
+                        <input type="date">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Row 2 -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>Blood group</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                        <select>
+
+                            <option>Select blood group</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Marital status</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-id-card"></i>
+
+                        <select>
+
+                            <option>Single</option>
+                            <option>Married</option>
+                            <option>Divorced</option>
+                            <option>Widowed</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Row 3 -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>Height (cm)</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-ruler-vertical"></i>
+
+                        <input type="number" placeholder="170">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Weight (kg)</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-weight-scale"></i>
+
+                        <input type="number" placeholder="70">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Row 4 -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>BMI</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-gauge"></i>
+
+                        <input
+                            type="text"
+                            placeholder="Calculated automatically"
+                            readonly>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Occupation</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-pen-to-square"></i>
+
+                        <input
+                            type="text"
+                            placeholder="Software engineer">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Address -->
+
+            <div class="form-group full">
+
+                <label>Address</label>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    <input
+                        type="text"
+                        placeholder="House, street, area">
+
+                </div>
+
+            </div>
+
+            <!-- City State -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>City</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-building"></i>
+
+                        <input type="text" placeholder="City">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>State</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <input type="text" placeholder="State">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Country -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>Country</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-earth-asia"></i>
+
+                        <input
+                            type="text"
+                            placeholder="Country">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Postal code</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-qrcode"></i>
+
+                        <input
+                            type="text"
+                            placeholder="Postal code">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Allergies -->
+
+            <div class="form-group full">
+
+                <label>Allergies</label>
+
+                <div class="textarea-box">
+
+                    <i class="fa-solid fa-paperclip"></i>
+
+                    <textarea
+                        placeholder="List known allergies"></textarea>
+
+                </div>
+
+            </div>
+
+            <!-- Diseases -->
+
+            <div class="form-group full">
+
+                <label>Chronic diseases</label>
+
+                <div class="textarea-box">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                    <textarea
+                        placeholder="Diabetes, asthma, hypertension, etc."></textarea>
+
+                </div>
+
+            </div>
+
+            <!-- Emergency -->
+
+            <div class="row">
+
+                <div class="form-group">
+
+                    <label>Emergency contact name</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-address-book"></i>
+
+                        <input
+                            type="text"
+                            placeholder="Contact person">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Emergency contact phone</label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <input
+                            type="text"
+                            placeholder="+91 98765 43210">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Button -->
+
+            <button class="save-btn">
+
+                <i class="fa-regular fa-circle-check"></i>
+
+                Save Profile
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

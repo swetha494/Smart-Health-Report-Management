@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Staff Documents</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet" href="doc-upload.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2 class="page-title">
+        Staff Documents
+    </h2>
+
+    <!-- Tabs -->
+
+    <div class="tabs">
+
+        <button class="active">
+
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+            Upload Documents
+
+        </button>
+
+        <button>
+
+            <i class="fa-regular fa-folder-open"></i>
+
+            View Documents
+
+        </button>
+
+    </div>
+
+    <!-- Upload Title -->
+
+    <div class="section-header">
+
+        <h1>Upload documents</h1>
+
+        <p>
+            Search the patient by Patient ID before attaching a report.
+        </p>
+
+    </div>
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+        type="text"
+        placeholder="PAT000008">
+
+        <button>
+            Search
+        </button>
+
+    </div>
+
+    <!-- Patient Card -->
+
+    <div class="patient-card">
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-solid fa-qrcode"></i>
+
+                Patient ID
+
+            </div>
+
+            <span>PAT000008</span>
+
+        </div>
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-regular fa-user"></i>
+
+                Patient Name
+
+            </div>
+
+            <span>Dhinesh B</span>
+
+        </div>
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-solid fa-venus-mars"></i>
+
+                Gender
+
+            </div>
+
+            <span>Male</span>
+
+        </div>
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-regular fa-calendar"></i>
+
+                Date of Birth
+
+            </div>
+
+            <span>14 Dec 2000</span>
+
+        </div>
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-solid fa-droplet"></i>
+
+                Blood Group
+
+            </div>
+
+            <span>A+</span>
+
+        </div>
+
+    </div>
+
+    <!-- Upload Box -->
+
+    <div class="upload-box">
+
+        <div class="upload-icon">
+
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+        </div>
+
+        <h2>Choose medical report</h2>
+
+        <p>
+            Upload PDF, JPG, JPEG, or PNG files up to 20 MB.
+        </p>
+
+        <button class="file-btn">
+
+            <i class="fa-solid fa-paperclip"></i>
+
+            Select File
+
+        </button>
+
+    </div>
+
+    <!-- Report Details -->
+
+    <div class="report-section">
+
+        <h2>Report details</h2>
+
+        <form>
+
+            <label>Report title</label>
+
+            <div class="input-box">
+
+                <i class="fa-regular fa-file-lines"></i>
+
+                <input
+                type="text"
+                placeholder="Enter report title">
+
+            </div>
+
+            <label>Report category</label>
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-tags"></i>
+
+                <select>
+
+                    <option>Lab</option>
+                    <option>Radiology</option>
+                    <option>Prescription</option>
+                    <option>Other</option>
+
+                </select>
+
+            </div>
+
+            <label>Doctor name</label>
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-stethoscope"></i>
+
+                <input
+                type="text"
+                placeholder="Enter doctor name">
+
+            </div>
+
+            <label>Hospital name</label>
+
+            <div class="input-box">
+
+                <i class="fa-regular fa-hospital"></i>
+
+                <input
+                type="text"
+                placeholder="Enter hospital name">
+
+            </div>
+
+            <label>Report date</label>
+
+            <div class="input-box">
+
+                <i class="fa-regular fa-calendar"></i>
+
+                <input type="date">
+
+            </div>
+
+            <label>Remarks</label>
+
+            <div class="textarea-box">
+
+                <i class="fa-regular fa-note-sticky"></i>
+
+                <textarea placeholder="Add important observations"></textarea>
+
+            </div>
+
+            <button class="upload-btn">
+
+                <i class="fa-regular fa-circle-check"></i>
+
+                Upload Report
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>

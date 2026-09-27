@@ -1,0 +1,373 @@
+/*==============================
+RESET
+==============================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#1e293b;
+}
+
+/*==============================
+CONTAINER
+==============================*/
+
+.container{
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+.page-title{
+    text-align:center;
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+/*==============================
+TABS
+==============================*/
+
+.tabs{
+    display:flex;
+    gap:12px;
+    margin-bottom:35px;
+}
+
+.tabs button{
+    padding:14px 22px;
+    border-radius:16px;
+    border:1px solid #d9e2ef;
+    background:#fff;
+    color:#475569;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.tabs button i{
+    margin-right:8px;
+}
+
+.tabs button.active{
+    background:#2F5BEA;
+    color:#fff;
+}
+
+.tabs button:hover{
+    background:#2F5BEA;
+    color:#fff;
+}
+
+/*==============================
+SECTION TITLE
+==============================*/
+
+.section-header{
+    margin-bottom:20px;
+}
+
+.section-header h1{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.section-header p{
+    color:#64748b;
+    font-size:17px;
+}
+
+/*==============================
+SEARCH
+==============================*/
+
+.search-box{
+    display:flex;
+    align-items:center;
+    background:#fff;
+    border:2px solid #2F5BEA;
+    border-radius:20px;
+    height:58px;
+    padding:0 18px;
+    margin-bottom:28px;
+}
+
+.search-box i{
+    color:#64748b;
+    font-size:18px;
+}
+
+.search-box input{
+    flex:1;
+    border:none;
+    outline:none;
+    margin:0 15px;
+    font-size:17px;
+    background:none;
+}
+
+.search-box button{
+    border:none;
+    background:#fff;
+    border:1px solid #d9e2ef;
+    color:#2F5BEA;
+    padding:10px 24px;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+/*==============================
+PATIENT CARD
+==============================*/
+
+.patient-card{
+    background:#fff;
+    border-radius:24px;
+    padding:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.05);
+    margin-bottom:30px;
+}
+
+.info-row{
+    background:#fff;
+    border-radius:18px;
+    padding:18px 22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.info-row:last-child{
+    margin-bottom:0;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    font-size:18px;
+}
+
+.left i{
+    color:#2F5BEA;
+    width:22px;
+}
+
+.info-row span{
+    color:#64748b;
+    font-weight:500;
+}
+
+/*==============================
+UPLOAD BOX
+==============================*/
+
+.upload-box{
+    background:#fff;
+    border-radius:24px;
+    padding:45px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.05);
+    margin-bottom:35px;
+}
+
+.upload-icon{
+    width:64px;
+    height:64px;
+    border-radius:18px;
+    background:#e9f0ff;
+    color:#2F5BEA;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    margin:auto auto 20px;
+}
+
+.upload-box h2{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.upload-box p{
+    color:#64748b;
+    margin-bottom:25px;
+}
+
+.file-btn{
+    background:#fff;
+    border:1px solid #d9e2ef;
+    color:#2F5BEA;
+    padding:12px 22px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+}
+
+.file-btn i{
+    margin-right:8px;
+}
+
+/*==============================
+REPORT FORM
+==============================*/
+
+.report-section h2{
+    font-size:34px;
+    margin-bottom:25px;
+}
+
+.report-section label{
+    display:block;
+    margin-bottom:8px;
+    margin-top:20px;
+    font-size:15px;
+    color:#475569;
+    font-weight:600;
+}
+
+.input-box{
+    height:58px;
+    border:1px solid #d9e2ef;
+    background:#fff;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    padding:0 18px;
+}
+
+.input-box i{
+    color:#64748b;
+    margin-right:12px;
+}
+
+.input-box input,
+.input-box select{
+    width:100%;
+    border:none;
+    outline:none;
+    background:none;
+    font-size:16px;
+}
+
+.textarea-box{
+    display:flex;
+    background:#fff;
+    border:1px solid #d9e2ef;
+    border-radius:18px;
+    padding:18px;
+}
+
+.textarea-box i{
+    color:#64748b;
+    margin-right:12px;
+    margin-top:4px;
+}
+
+.textarea-box textarea{
+    width:100%;
+    height:90px;
+    resize:none;
+    border:none;
+    outline:none;
+    font-size:16px;
+    background:none;
+}
+
+.upload-btn{
+    width:100%;
+    height:58px;
+    margin-top:28px;
+    background:#2F5BEA;
+    color:#fff;
+    border:none;
+    border-radius:18px;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.upload-btn i{
+    margin-right:10px;
+}
+
+.upload-btn:hover{
+    background:#244bd4;
+}
+
+/*==============================
+RESPONSIVE
+==============================*/
+
+@media(max-width:768px){
+
+.container{
+    padding:15px;
+}
+
+.tabs{
+    flex-direction:column;
+}
+
+.tabs button{
+    width:100%;
+}
+
+.search-box{
+    flex-direction:column;
+    height:auto;
+    gap:15px;
+    padding:15px;
+}
+
+.search-box input{
+    width:100%;
+    margin:0;
+}
+
+.search-box button{
+    width:100%;
+}
+
+.info-row{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.section-header h1{
+    font-size:34px;
+}
+
+.upload-box{
+    padding:30px 20px;
+}
+
+.upload-box h2{
+    font-size:28px;
+}
+
+.report-section h2{
+    font-size:28px;
+}
+
+.upload-btn{
+    height:54px;
+}
+
+}

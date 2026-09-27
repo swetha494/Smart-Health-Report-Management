@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>View Patient Documents</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="view-doc.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2 class="page-title">Staff Documents</h2>
+
+    <!-- Tabs -->
+
+    <div class="tabs">
+
+        <button>
+
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+            Upload Documents
+
+        </button>
+
+        <button class="active">
+
+            <i class="fa-regular fa-folder-open"></i>
+
+            View Documents
+
+        </button>
+
+    </div>
+
+    <!-- Heading -->
+
+    <div class="section-header">
+
+        <h1>View patient documents</h1>
+
+        <p>
+            Enter a Patient ID to view their uploaded medical documents.
+        </p>
+
+    </div>
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            type="text"
+            placeholder="PAT000008">
+
+        <button>
+
+            View Documents
+
+        </button>
+
+    </div>
+
+    <!-- Patient Card -->
+
+    <div class="patient-card">
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-solid fa-qrcode"></i>
+
+                Patient ID
+
+            </div>
+
+            <span>PAT000008</span>
+
+        </div>
+
+        <div class="info-row">
+
+            <div class="left">
+
+                <i class="fa-regular fa-user"></i>
+
+                Patient Name
+
+            </div>
+
+            <span>Dhinesh B</span>
+
+        </div>
+
+    </div>
+
+    <!-- Documents -->
+
+    <h2 class="documents-title">
+        Patient documents
+    </h2>
+
+    <div class="document-card">
+
+        <div class="document-left">
+
+            <div class="doc-icon">
+
+                <i class="fa-regular fa-file-lines"></i>
+
+            </div>
+
+            <div class="doc-details">
+
+                <div class="title-row">
+
+                    <h3>BP</h3>
+
+                    <span class="badge">
+                        Lab
+                    </span>
+
+                </div>
+
+                <p>Gopal - SVCET</p>
+
+                <small>
+                    Report: 11 Dec 2000 • Uploaded: 10 Jul 2026
+                </small>
+
+            </div>
+
+        </div>
+
+        <div class="document-right">
+
+            <span class="file-type">
+
+                JPG
+
+            </span>
+
+            <button class="view-btn">
+
+                View
+
+            </button>
+
+            <button class="download-btn">
+
+                Download
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

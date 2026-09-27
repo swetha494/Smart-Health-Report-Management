@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:#111827;
+}
+
+.register-container{
+    width:100%;
+    max-width:560px;
+    padding:30px 20px;
+}
+
+.top-title{
+    text-align:center;
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:40px;
+}
+
+.register-box h1{
+    font-size:46px;
+    font-weight:700;
+    margin-bottom:10px;
+    color:#0F172A;
+}
+
+.subtitle{
+    color:#667085;
+    font-size:17px;
+    margin-bottom:25px;
+    line-height:1.6;
+}
+
+label{
+    display:block;
+    margin-top:18px;
+    margin-bottom:8px;
+    font-size:14px;
+    font-weight:600;
+    color:#475467;
+}
+
+.input-box{
+    display:flex;
+    align-items:center;
+    background:#fff;
+    border:1px solid #d7dde8;
+    border-radius:18px;
+    height:58px;
+    padding:0 18px;
+}
+
+.input-box i{
+    color:#64748B;
+    font-size:18px;
+    margin-right:12px;
+}
+
+.input-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:16px;
+    background:transparent;
+}
+
+.input-box input::placeholder{
+    color:#98A2B3;
+}
+
+.register-btn{
+    width:100%;
+    height:58px;
+    margin-top:28px;
+    border:none;
+    border-radius:18px;
+    background:#2F5BEA;
+    color:#fff;
+    font-size:19px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.register-btn i{
+    margin-right:10px;
+}
+
+.register-btn:hover{
+    background:#244bd4;
+}
+
+.login-link{
+    text-align:center;
+    margin-top:24px;
+    color:#667085;
+    font-size:16px;
+}
+
+.login-link a{
+    color:#2F5BEA;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.login-link a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+
+.register-container{
+    padding:20px;
+}
+
+.top-title{
+    font-size:24px;
+}
+
+.register-box h1{
+    font-size:34px;
+}
+
+.subtitle{
+    font-size:15px;
+}
+
+.input-box{
+    height:54px;
+}
+
+.register-btn{
+    height:54px;
+    font-size:18px;
+}
+
+}
