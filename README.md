@@ -28,7 +28,7 @@ A web-based system for managing medical reports, tracking health records, appoin
 
 ## 🎥 Project Demo
 
-Demo video will be added soon.
+▶️ [Watch Project Demo](./Smart-Health-Demo.mp4.mp4)
 
 ## 👩‍💻 Project
 
